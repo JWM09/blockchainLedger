@@ -119,7 +119,6 @@ if st.button("Add Block"):
 
     # Update `new_block` so that `Block` consists of an attribute named `record`
     new_block = Block(
-        # data=input_data, - IN LIEU OF DELETING AT THIS TIME
         record=Record(sender, receiver, amount),
         creator_id=42, 
         prev_hash=prev_block_hash
